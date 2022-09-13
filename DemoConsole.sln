@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left_Right_Doubles", "DemoConsole\Left_Right_Doubles.csproj", "{9D93C8F0-DDF5-4E9E-9724-9B3A4A9F5F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D93C8F0-DDF5-4E9E-9724-9B3A4A9F5F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D93C8F0-DDF5-4E9E-9724-9B3A4A9F5F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D93C8F0-DDF5-4E9E-9724-9B3A4A9F5F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D93C8F0-DDF5-4E9E-9724-9B3A4A9F5F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06A0B1CD-7CF5-44A8-8DEA-BF4F1AAEFC49}
+	EndGlobalSection
+EndGlobal
