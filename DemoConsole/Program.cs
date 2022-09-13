@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Text;
 
 namespace DemoConsole
@@ -21,7 +20,7 @@ namespace DemoConsole
 
             Bench(10_000_000, 0, 10000);
         }
-    
+
         private static List<string> BitPatternHS(List<int> nums)
         {
             var occursEarlier = new char[nums.Count];
@@ -29,11 +28,13 @@ namespace DemoConsole
 
             HashSet<int> back = new HashSet<int>();
             HashSet<int> front = new HashSet<int>();
-
-            for(int i = 0; i < nums.Count; i++)
+            
+            int revI = 0;
+            for (int i = 0; i < nums.Count; i++)
             {
+                revI = nums.Count - 1 - i;
+
                 var num = nums[i];
-                int revI = nums.Count - 1 - i;
                 var revNum = nums[revI];
 
                 if(!back.Add(num))
@@ -98,7 +99,6 @@ namespace DemoConsole
 
             Console.WriteLine();
         }
-
 
         private static List<int> GetRandomList(long count, int min, int max)
         {
